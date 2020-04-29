@@ -1,0 +1,37 @@
+name: easypantry
+description: Easy way to maintain inventory in your pantry
+version: 1.0.0+1
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.5.0
+  fluttertoast: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - images/bottom_navigation/
+    - images/categories/
+    - images/vegetables/
+    - images/dairy/
+    - images/fruits/
+    - images/spices/
+    - images/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Bold.ttf
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Medium.ttf
+          weight: 400
